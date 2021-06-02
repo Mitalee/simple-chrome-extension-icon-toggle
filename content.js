@@ -1,4 +1,5 @@
 // alert('Hello world!'); //https://stackoverflow.com/a/51990328/2048229
+// https://stackoverflow.com/questions/15835080/chrome-extension-run-content-script-only-when-button-is-clicked
 
 function sleep(ms) { //we can't make only this function async
     return new Promise(resolve => setTimeout(resolve, ms));

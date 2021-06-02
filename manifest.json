@@ -20,10 +20,8 @@
     },
     "content_scripts": [
       {
-        "matches": [
-          "<all_urls>"
-        ],
-        "js": ["lib/jquery.min.js", "content.js"]
+        "matches": ["https://*.google.com/*"],
+        "js": ["lib/jquery.min.js", "toggle.js"]
       }
     ]
   }
